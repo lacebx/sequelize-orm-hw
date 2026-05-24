@@ -1,10 +1,10 @@
-# sequelize-orm-hw — Blog API with Sequelize ORM
+# sequelize-orm-hw, Blog API with Sequelize ORM
 
-A backend REST API for a blog platform, built as a homework assignment to learn **Sequelize ORM** with Node.js. The whole point was to go beyond raw SQL and understand how to model data relationships through JavaScript objects — and it actually clicked.
+A backend REST API for a blog platform, built as a homework assignment to learn **Sequelize ORM** with Node.js. The whole point was to go beyond raw SQL and understand how to model data relationships through JavaScript objects, and it actually clicked.
 
-This project implements a full data layer with migrations, models, seeders, and controllers for a blog system with Users, Posts, Comments, and Tags. No half-measures — it's properly structured.
+This project implements a full data layer with migrations, models, seeders, and controllers for a blog system with Users, Posts, Comments, and Tags. No half-measures, it's properly structured.
 
-> *Birarenze* — understanding ORMs changed how I think about backend data forever.
+Understanding ORMs is birarenze because it completely changed how I think about backend data.
 
 ---
 
@@ -44,7 +44,6 @@ sequelize-orm-hw/
 ---
 
 ## Tech Stack
-
 - **Runtime:** Node.js
 - **ORM:** Sequelize
 - **Database:** MySQL (configurable via `config/`)
@@ -59,13 +58,12 @@ npm install
 npx sequelize-cli db:create
 npx sequelize-cli db:migrate
 npx sequelize-cli db:seed:all
-node populatePosts.js   # Optional: seed via script
+node populatePosts.js  # Optional: seed via script
 ```
 
 ---
 
 ## What I Learned
-
 - Defining model associations (hasMany, belongsTo, belongsToMany)
 - Writing and running migrations to version database schemas
 - Using seeders to populate test data
